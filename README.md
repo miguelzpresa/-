@@ -1,11 +1,11 @@
-📖 # PDF Reader App 📄
-Welcome to the PDF Reader App! 🎉 This is a simple application that allows you to easily read PDF files on your computer. 🖥️
+# 📖 PDF Reader App 📄
+Welcome to the PDF Reader App! 🎉 This is a simple application that allows you to easily read PDF files on your computer. 🖥️  
 
-## Features 🌟
-* Open and read PDF files on your computer 📂
-* Zoom in and out of PDF files to adjust the view 🔍
-* Navigate through pages using a simple user interface 🚀
-* Quickly search for specific text within a PDF file 🔎
+## Features 🌟  
+- Open and read PDF files on your computer 📂
+- Zoom in and out of PDF files to adjust the view 🔍
+- Navigate through pages using a simple user interface 🚀
+- Quickly search for specific text within a PDF file 🔎
 ## Installation 💻
 1. Clone this repository to your local machine. 🖥️
 2. Install the required dependencies using npm install. 📥
