@@ -21,3 +21,5 @@ Contributions are welcome! 🎉 If you find a bug or have a feature request, ple
 
 ## License 📜
 This project is licensed under the BSD3 License. See the LICENSE file for more information. 📝
+
+-------
