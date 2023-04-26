@@ -20,6 +20,27 @@ Usage 📝
 3. Once the file is loaded, use the navigation controls to browse through the pages. 📄
 4. Use the zoom controls to adjust the view of the PDF file. 🔍
 5. Use the search bar to quickly find specific text within the PDF file. 🔎
+
+## SetUp 💻
+- Ubuntu 🐧
+- Python 🐍
+- Kivy ⏺️
+   
+   a. Methods used to load the libraries: 📖
+      
+      sudo apt-get update
+      sudo apt-get upgrade
+
+      sudo apt-get install python3-dev libgl1-mesa-dev libgles2-mesa-dev \
+          libgstreamer-plugins-base1.0-dev \
+          libpython3-dev \
+          ffmpeg \
+          libsdl2-dev \
+          libsdl2-image-dev \
+          libsdl2-mixer-dev \
+          libsdl2-ttf-dev
+      sudo pip3 install "kivy[full]"
+
 ## Contributions 🤝
 Contributions are welcome! 🎉 If you find a bug or have a feature request, please create an issue on this repository. 🙌
 
