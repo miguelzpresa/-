@@ -1,10 +1,10 @@
 # 📖 PDF Reader App 📄
 Welcome to the PDF Reader App! 🎉 This is a simple application that allows you to easily read PDF files on your computer. 🖥️  
 
-##Team Members
--Gerardo Zabdiel Martinez Zavala
--Leonardo García Zavala
--Miguel Angel Zamorano Presa
+## Team Members
+- Gerardo Zabdiel Martinez Zavala
+- Leonardo García Zavala
+- Miguel Angel Zamorano Presa
 ## Features 🌟  
 - Open and read PDF files on your computer 📂
 - Zoom in and out of PDF files to adjust the view 🔍
