@@ -1,10 +1,15 @@
 #!/usr/bin/python3
+
 import kivy
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.uix.filechooser import FileChooserListView
+from pydantic import ValidationError
+from pydantic.types import FilePath
+
+
 
 class WelcomeScreen(Screen):
     def __init__(self, **kwargs):
@@ -30,10 +35,23 @@ class FileScreen(Screen):
         layout.add_widget(select_button)
         self.add_widget(layout)
 
+
+
     def upload_file(self, path):
         print(path)
+    try:
+        # validar que el archivo es un PDF
+        FilePath(strict=True, endswith='.pdf').__get_validators__()[0](path)
 
-
+        with open(path, 'rb') as f:
+            # ejecutar la función pdf_metamorfosis con el archivo como argumento
+            pdf_metamorfosis(f.read())
+    except ValidationError:
+        print('El archivo no es un PDF')
+    except FileNotFoundError:
+        print('El archivo no existe')
+    except Exception as e:
+        print('Ocurrió un error inesperado:', e)       
 class MyApp(App):
 
     def build(self):
