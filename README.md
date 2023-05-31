@@ -18,13 +18,13 @@ Sure! Here's an example of how you can create a section in your GitHub README to
 To use the PDF Reader app, follow the steps below:  
 
 ### Step 1: Download the Executable  
-Go to the PDF_Reader_APP folder in this repository.  
-Click on the y.exe file.  
-On the file page, click the "Download" button to download the executable to your local machine.  
+1. Go to the PDF_Reader_APP folder in this repository.  
+2. Click on the y.exe file.  
+3. On the file page, click the "Download" button to download the executable to your local machine.  
 ### Step 2: Run the App  
-After the download is complete, navigate to the location where you saved the y.exe file.  
-Double-click the y.exe file to run the PDF Reader app.  
-The app will launch and you can start using it to convert PDF files to audio.  
+1. After the download is complete, navigate to the location where you saved the y.exe file.  
+2. Double-click the y.exe file to run the PDF Reader app.  
+3. The app will launch and you can start using it to convert PDF files to audio.  
 Note: This executable is only available for Windows. If you are using a different operating system, you can still run the app by following the instructions in the next section.
 
 
