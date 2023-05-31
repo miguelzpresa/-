@@ -12,7 +12,7 @@ Welcome to the PDF Reader App! 🎉 This is a simple application that allows you
 - Navigate & manipulate voice records with a  simple user interface 🚀
 - Quickly search for specific text within a PDF file 🔎
 
-Sure! Here's an example of how you can create a section in your GitHub README to explain how to download the executable and use the app:
+
 
 ## Getting Started  🚀
 To use the PDF Reader app, follow the steps below:  
