@@ -14,14 +14,14 @@ Welcome to the PDF Reader App! 🎉 This is a simple application that allows you
 
 Sure! Here's an example of how you can create a section in your GitHub README to explain how to download the executable and use the app:
 
-## Getting Started  
+## Getting Started  🚀
 To use the PDF Reader app, follow the steps below:  
 
-Step 1: Download the Executable  
+### Step 1: Download the Executable  
 Go to the PDF_Reader_APP folder in this repository.  
 Click on the y.exe file.  
 On the file page, click the "Download" button to download the executable to your local machine.  
-Step 2: Run the App  
+### Step 2: Run the App  
 After the download is complete, navigate to the location where you saved the y.exe file.  
 Double-click the y.exe file to run the PDF Reader app.  
 The app will launch and you can start using it to convert PDF files to audio.  
@@ -32,15 +32,22 @@ Usage 📝
 1. Open the PDF Reader App. 📂
 2. Click the "Open PDF" button to select a PDF file from your computer. 🖱️
 3. Once the file is loaded, use the navigation controls to browse through the pages. 📄
-4. Use the zoom controls to adjust the view of the PDF file. 🔍
-5. Use the search bar to quickly find specific text within the PDF file. 🔎
+4. Use the play/pause controls to play & stop the reader voice. 🔍
 
-## SetUp 💻
-- Ubuntu 🐧
+## Language code 💻
 - Python 🐍
-- Kivy ⏺️
+
+## Libraries 🤝
+- PyPDF2 ⏺️
+- gTTs 🐍
+- Pygame  🐧
+- Tkinter ⏺️
+- kivy  🐧
+- kivymd ⏺️
+- os 🐍
+
    
-   a. Methods used to load the libraries: 📖
+   a. For Developers: Methods used to load the libraries: 📖
       
       sudo apt-get update
       sudo apt-get upgrade
@@ -54,6 +61,7 @@ Usage 📝
           libsdl2-mixer-dev \
           libsdl2-ttf-dev
       sudo pip3 install "kivy[full]"
+      
 
 ## Contributions 🤝
 Contributions are welcome! 🎉 If you find a bug or have a feature request, please create an issue on this repository. 🙌
