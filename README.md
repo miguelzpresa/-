@@ -1,5 +1,5 @@
 # 📄 Oidos Lectores 📄
-📖 PDF Reader App 
+📖 A PDF Reader App   
 Welcome to the PDF Reader App! 🎉 This is a simple application that allows you to easily read PDF files on your computer. 🖥️  
 
 ## Team Members
@@ -11,10 +11,23 @@ Welcome to the PDF Reader App! 🎉 This is a simple application that allows you
 - Quickly  change language reader voice  🔍
 - Navigate & manipulate voice records with a  simple user interface 🚀
 - Quickly search for specific text within a PDF file 🔎
-## Installation 💻
-1. Clone this repository to your local machine. 🖥️
-2. Install the required dependencies using npm install. 📥
-3. Start the application using npm start. 🚀
+
+Sure! Here's an example of how you can create a section in your GitHub README to explain how to download the executable and use the app:
+
+## Getting Started  
+To use the PDF Reader app, follow the steps below:  
+
+Step 1: Download the Executable  
+Go to the PDF_Reader_APP folder in this repository.  
+Click on the y.exe file.  
+On the file page, click the "Download" button to download the executable to your local machine.  
+Step 2: Run the App  
+After the download is complete, navigate to the location where you saved the y.exe file.  
+Double-click the y.exe file to run the PDF Reader app.  
+The app will launch and you can start using it to convert PDF files to audio.  
+Note: This executable is only available for Windows. If you are using a different operating system, you can still run the app by following the instructions in the next section.
+
+
 Usage 📝
 1. Open the PDF Reader App. 📂
 2. Click the "Open PDF" button to select a PDF file from your computer. 🖱️
