@@ -1,4 +1,5 @@
-# 📖 PDF Reader App 📄
+# 📄 Oidos Lectores 📄
+📖 PDF Reader App 
 Welcome to the PDF Reader App! 🎉 This is a simple application that allows you to easily read PDF files on your computer. 🖥️  
 
 ## Team Members
@@ -7,8 +8,8 @@ Welcome to the PDF Reader App! 🎉 This is a simple application that allows you
 - Miguel Angel Zamorano Presa
 ## Features 🌟  
 - Open and read PDF files on your computer 📂
-- Zoom in and out of PDF files to adjust the view 🔍
-- Navigate through pages using a simple user interface 🚀
+- Quickly  change language reader voice  🔍
+- Navigate & manipulate voice records with a  simple user interface 🚀
 - Quickly search for specific text within a PDF file 🔎
 ## Installation 💻
 1. Clone this repository to your local machine. 🖥️
