@@ -28,7 +28,7 @@ To use the PDF Reader app, follow the steps below:
 Note: This executable is only available for Windows. If you are using a different operating system, you can still run the app by following the instructions in the next section.
 
 
-Usage 📝
+## Usage 📝
 1. Open the PDF Reader App. 📂
 2. Click the "Open PDF" button to select a PDF file from your computer. 🖱️
 3. Once the file is loaded, use the navigation controls to browse through the pages. 📄
