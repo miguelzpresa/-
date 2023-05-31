@@ -1,4 +1,4 @@
-#  🎧👂 Oidos Lectores 🎧👂
+#  🎧👂 Oidos Lectores 👂🎧
 📖 A PDF Reader App   
 Welcome to the PDF Reader App! 🎉 This is a simple application that allows you to easily read PDF files on your computer. 🖥️  
 
