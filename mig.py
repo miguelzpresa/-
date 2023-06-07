@@ -2,6 +2,7 @@ import os
 import time
 import PyPDF2
 import gtts
+import 
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
@@ -150,7 +151,7 @@ combo_idiomas.current(0)  # Establecer el idioma predeterminado
 combo_idiomas.pack(pady=10)
 
 # Agregar un botón para seleccionar el archivo PDF y realizar la conversión
-btn_convertir = tk.Button(window, text="Seleccionar PDF", command=lambda:[funcion()])
+btn_convertir = tk.Button(window, text="Seleccionar PDF", command=lambda:[convertir_a_audio(),funcion()])
 btn_convertir.pack(pady=20)
 
 #Agregar un bóton para iniciar la reproducción
