@@ -150,7 +150,7 @@ combo_idiomas.current(0)  # Establecer el idioma predeterminado
 combo_idiomas.pack(pady=10)
 
 # Agregar un botón para seleccionar el archivo PDF y realizar la conversión
-btn_convertir = tk.Button(window, text="Seleccionar PDF", command=lambda:[funcion()])
+btn_convertir = tk.Button(window, text="Seleccionar PDF", command=lambda:[convertir_a_audio(),funcion()])
 btn_convertir.pack(pady=20)
 
 #Agregar un bóton para iniciar la reproducción
