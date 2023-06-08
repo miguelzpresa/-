@@ -1,11 +1,16 @@
+#!/usr/bin/python3
 import os
+import time
 import PyPDF2
-from gtts import gTTS
+import gtts	 
 import tkinter as tk
+#from tkinter import tkk
 from tkinter import filedialog
 from tkinter import messagebox
-import pygame
 from tkinter import ttk
+import matplotlib
+import pygame
+from tkPDFViewer import tkPDFViewer as pdff
 
 def convertir_a_audio():
     # Obtener la ruta del archivo PDF seleccionado
@@ -55,10 +60,12 @@ def convertir_a_audio():
 
 def actualizar_barra_progreso():
     current_time = pygame.mixer.music.get_pos() / 1000  # Obtener el tiempo actual en segundos
-    progress_bar.config(value=current_time)
+    style = ttk.Style()
+    style.configure('my.Progressbar', troughcolor='black', bordercolor='white', foreground='white', relief='flat')
+    progress_bar.config(value=current_time,style='my.Progressbar')
     if pygame.mixer.music.get_busy():
-        window.after(1000, actualizar_barra_progreso)  # Actualizar la barra cada segundo
-
+	    window.after(1000, actualizar_barra_progreso)#Actualizar la barra cada segundo
+   
 def pausar_reproduccion():
     pygame.mixer.music.pause()
     btn_pause.config(state=tk.DISABLED)
