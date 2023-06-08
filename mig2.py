@@ -4,7 +4,7 @@ import time
 import PyPDF2
 import gtts	 
 import tkinter as tk
-from tkinter import tkk
+#from tkinter import tkk
 from tkinter import filedialog
 from tkinter import messagebox
 from tkinter import ttk
@@ -112,13 +112,11 @@ def funcion():
     #ventana_secundaria.state("zoomed")
     ventana_secundaria.title("Reproductor")
     #ventana_secundaria.config(width=1000, height=1000)
-ventana_secundaria.geometry("550x750")
-btn_reproducir = tk.Button(ventana_secundaria, text="Reproducir", state=tk.NORMAL, command=iniciar_reproduccion)
-btn_reproducir.pack(pady=10)
-
-    btn_pause = tk.Button(ventana_secundaria, text="Pausar", state=tk.DISABLED, command=pausar_reproduccion)
+    ventana_secundaria.geometry("550x750")
+    btn_reproducir = tk.Button(ventana_secundaria, text="Reproducir", state=tk.NORMAL, command=iniciar_reproduccion)
+    btn_reproducir.pack(pady=10)
+    btn_pause = tk.Button(ventana_secundaria, text="Pausar", state=tk.DISABLED,      command=pausar_reproduccion)
     btn_pause.pack(pady=10)
-
     btn_resume = tk.Button(ventana_secundaria, text="Reanudar", state=tk.DISABLED, command=reanudar_reproduccion)
     btn_resume.pack(pady=10)
 
@@ -126,9 +124,9 @@ btn_reproducir.pack(pady=10)
     btn_reproducir.config(state=tk.NORMAL)
     btn_pause.config(state=tk.NORMAL)
     btn_resume.config(state=tk.DISABLED)
-visorpdf = pdff.ShowPdf()
-loc_visorpdf = visorpdf.pdf_view(ventana_secundaria,pdf_location = pdf_path,width = 50, height = 100)
-loc_visor.pack()
+    visorpdf = pdff.ShowPdf()
+    loc_visorpdf = visorpdf.pdf_view(ventana_secundaria,pdf_location = pdf_path,width = 50, height = 100)
+    loc_visor.pack()
 	
 
 # Diccionario de idiomas
